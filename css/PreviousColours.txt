@@ -1,0 +1,4 @@
+Colours used in the previous css
+#18BC9C
+#128f76
+#2C3E50
