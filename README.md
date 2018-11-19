@@ -1,74 +1,55 @@
-# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
+I am second year student following a Computer Science degree at the University of Manchester and I aim to one day become part of the games industry.
+My passion for video games can be seen throughout my life. From almost 10 years of playing World of Warcraft to countless hours spent with friends in multiplayer or co-op games such as Portal or Minecraft, it’s safe to say that I’ve been an avid gamer for quite some time. In fact, my proudest achievement is winning 8th and 9th place nation-wide across 3 seasons in the Overwatch NUEL championship, as part of the University’s team. It is this life-long interest in games that made me attempt to form multiple game developments teams, learning from my mistakes from the ones that succeeded and the ones that didn’t.
+So far, I’ve co-developed two prize-winning hackathon games and one game I co-developed with a friend in high school. Outside of games, I also built a mobile application for my University group project and a C# application using the SkyScanner and LeapMotion APIs for a hackathon.
+I was the leader for these projects, coming up with the initiative. I managed the team, took important design decisions and implemented key parts of the code. This, in turn, helped me develop my ability to work under pressure, handling tight deadlines, and to persevere in trying to achieve a high-quality application.
+Gravity Shift
+2D Space Racing game in which you have to traverse a race track using the gravitational fields of different planets, being able to activate and deactivate their gravitational pull.
+The game has both LAN and online multiplayer capabilities through ‘Unity Multiplayer’.
+Won the ‘Space-themed Hack Challenge’ at StudentHack VI
+My contribution:
+•	Implemented the game logic and physics scripts.
+•	Lead the team and improved its communication and morale by establishing an understanding and congratulatory team dynamic.
+•	Handled most of the testing, debugging and deployment of the game.
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+Platformer
+2D Arena Fighter game, the goal being to push the other player off the map by shooting him with knock-back projectiles, the power of which increases with every hit. 
+The game has hotseat gaming, 2 different levels, with most assets being made by the team.
+Won Bloomberg’s ‘Innovative Use of Technology’ challenge at Porticode 2.0
+My contribution:
+•	Added the basic game logic, UI, and some animations.
+•	Worked intensely on testing, debugging and file merging.
+•	Lead the team by keeping things organised and assigning tasks according to my teammates' skills and preferences.
 
-## Preview
+Vault Delver:
+2D Dungeon Crawler with Hack’n’Slash combat and a top-down view.
+The game has 2 different mob types, a boss and a fully functional score system. Part of the assets are self-made, including the Player, Map and Music.
+The game was created as a high school project by me and a friend, trying our hand at making our first game.
+My contribution:
+•	Implemented the combat, the enemies and the Player movement and animations.
+•	Built the score system and the UI.
+•	Created the map using Tiled.
 
-[![Freelancer Preview](https://startbootstrap.com/assets/img/templates/freelancer.jpg)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
+InnQUIZitor:
+PHP and Node.js web application for organising and taking part in a pub quiz without the need for pen and paper.
+The website is hosted on Amazon Web Services EC2, made primarily with PHP, using an AWS MySQL database.
+It supports concurrent account creation, multiple quiz creation and live quiz hosting.
+My contribution:
+•	Proposed the idea of the project and took charge of a team of 6 people.
+•	Designed the site’s architecture and implemented most of its functionality.
+•	Implemented the AWS hosting and the database.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-freelancer/)**
+HackScanner:
+C# application using the LeapMotion and SkyScanner APIs
+The software scrapes the Devpost website for all the available hackathons, parses the resulting .json in order to create an array with all the hackathons and enables the user to browse through the available events via a Leap Motion device. 
+Once a hackathon is selected, we use the Skyscanner API to look for the cheapest flights to said location and redirects the user to the flight webpage.
+My contribution:
+•	Implemented the use of the SkyScanner API.
+•	Merged the different parts of the project into the final C# application
 
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/freelancer/)
-* Install via npm: `npm i startbootstrap-freelancer`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm and Gulp installed globally on your machine in order to use these features.
-
-## Troubleshooting and Help
-
-Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
-
-**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Netlogo football animation
+Created a Netlogo football game simulation using Agent-oriented programming
+It started out as a plan to create a robot football team in our spare time with some friends from high school. To come up with the AI needed to create a functional team, we created a Netlogo simulation to better understand the mechanics of the game.
+After finishing the simulation, we started working on our first prototype robot, using Arduino, but the project had to be scrapped due to exams.
+My contribution:
+•	Helped create the player and goalkeeper behaviour
+•	Implemented a Java application to identify coloured squares in a webcam live feed to be used as points of reference for a relative coordinate system, using the Processing libraries.
